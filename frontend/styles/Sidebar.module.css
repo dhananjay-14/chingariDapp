@@ -1,0 +1,23 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    right: -78px;
+    color: white;
+  }
+.hoverbtn{
+    background: #0a0a0a;
+    border-radius: 80px;
+    color: white;
+    width: 49px;
+    height: 29px;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  .hoverbtn:hover {
+    background: #a55353;
+  }
+  .sidebarButton {
+    padding: 20px;
+    text-align: center;
+  }
+  

@@ -1,0 +1,62 @@
+.footer {
+    margin-top: 148px;
+    height: 50px;
+    position: relative;
+    color: white;
+    bottom: 150px;
+    display: flex;
+    background: #2d2b2b;
+    height: 50px;
+  }
+  
+  .footerText {
+    flex: 1;
+    height: 29px;
+  }
+  
+  .footerText > p {
+    padding-bottom: 20px;
+  }
+  
+  .footerRecord {
+    
+  }
+  .para{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .h3box{
+    height: 100%;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
+  
+  .footerIcon {
+    position: absolute;
+  }
+  
+  .footerTIcker > .ticker {
+    height: fit-content;
+    margin-left: 30px;
+    width: 60%;
+  }
+  
+  .footer__text > h3 {
+    padding-bottom: 20px;
+  }
+  
+  .footerTIcker h1 {
+    padding-top: 7px;
+  }
+  
+  @keyframes spinTheRecord {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
