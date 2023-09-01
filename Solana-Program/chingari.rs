@@ -19,9 +19,9 @@ const VIDEO_URL_LENGTH: usize = 255;
 
 const NUMBER_OF_ALLOWED_LIKES_SPACE: usize = 5;
 const NUMBER_OF_ALLOWED_LIKES: u8 = 5;
-/// TikTok Clone program
+
 #[program]
-pub mod tiktok_clone {
+pub mod chingari_clone {
     use super::*;
 
     pub fn create_user(
